@@ -7,7 +7,7 @@ ill eventually add new content (night 05 pretty much) to the mod just not right 
 THIS IS A FANMADE MOD
 GAME ASSETS FROM THE GAME ARE USED HERE
 
-#about urbano
+# about urbano
 "URBANO - Legends' Debut is a rhythm RPG that tells the story of the urban legends hunter Vailo. Investigate mysterious and supernatural creatures, criminals and people with highly questionable life choices!"
 Steam Page: https://store.steampowered.com/app/2115210/URBANO__Legends_Debut/
 Kickstarter Page: https://www.kickstarter.com/projects/bar0sa/urbano
