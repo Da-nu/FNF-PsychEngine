@@ -1,0 +1,38 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-60,
+		-360
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"animations": [
+		{
+			"loop_name": "",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VailoTalk talk",
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VailoTalk shut",
+			"anim": "shut",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "VailoTalk"
+}

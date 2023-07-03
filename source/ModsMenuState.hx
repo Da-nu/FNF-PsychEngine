@@ -77,6 +77,7 @@ class ModsMenuState extends MusicBeatState
 
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
+		bg.setGraphicSize(Std.int(bg.width * 0.669791667),Std.int(bg.height * 0.675925926));
 		add(bg);
 		bg.screenCenter();
 

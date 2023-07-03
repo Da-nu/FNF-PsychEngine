@@ -46,6 +46,7 @@ class CreditsState extends MusicBeatState
 
 		persistentUpdate = true;
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.setGraphicSize(Std.int(bg.width * 0.669791667),Std.int(bg.height * 0.675925926));
 		add(bg);
 		bg.screenCenter();
 		
@@ -81,6 +82,14 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['URBANO Mod Credits'],
+			['Danu',		'danu',		'coded this mod and suffered in the process',								'https://twitter.com/_D_a_n_u',	'57007F'],
+			['Fluffabyss',		'fluffabyss',		'really cool person who made the\nicons for vailo and queen nightcore',								'https://twitter.com/FluffAbyss',	'F73738'],
+			['barosa',		'barosa',		'person who made URBANO (really cool)\ncheck out the kickstarter by pressing donate in the main menu',								'https://twitter.com/bar0sa',	'FC036B'],
+			[''],
+			['extra mod credits'],
+			['HenrySMD',		'',		'bro can flip healthbars (crazy btw)',								'https://gamebanana.com/members/1992161',	'444444'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],

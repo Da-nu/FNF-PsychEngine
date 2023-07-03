@@ -1,0 +1,50 @@
+{
+	"storyName": "willy wisp",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "willywisp",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Ill-Teach",
+			"Nightcore",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Late-Night-Confession",
+			"Nightcore",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Left-or-Right",
+			"Nightcore",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Willy Wisp",
+	"hiddenUntilUnlocked": false
+}

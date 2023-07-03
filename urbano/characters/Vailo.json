@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				840,
+				610
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Vailo sing left"
+		},
+		{
+			"offsets": [
+				840,
+				610
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "idle",
+			"indices": [],
+			"name": "Vailo sing idle"
+		},
+		{
+			"offsets": [
+				840,
+				610
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "stl",
+			"loop": false,
+			"name": "Vailo sing uleft"
+		},
+		{
+			"offsets": [
+				879,
+				610
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "sdr",
+			"loop": false,
+			"name": "Vailo sing dright"
+		},
+		{
+			"offsets": [
+				879,
+				610
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "sdl",
+			"loop": false,
+			"name": "Vailo sing dleft"
+		},
+		{
+			"offsets": [
+				840,
+				610
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Vailo sing down"
+		},
+		{
+			"offsets": [
+				840,
+				741
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Vailo sing up"
+		},
+		{
+			"offsets": [
+				840,
+				610
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Vailo sing right"
+		},
+		{
+			"offsets": [
+				840,
+				610
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "str",
+			"loop": false,
+			"name": "Vailo sing uright"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Vailo",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "vailo",
+	"flip_x": true,
+	"healthbar_colors": [
+		165,
+		55,
+		73
+	],
+	"camera_position": [
+		440,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 0.4
+}

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="QueenNightcoreTalk.png">
+<SubTexture name="QueenNightcoreTalk shut0000" x="0" y="0" width="1194" height="2128" frameX="-9" frameY="-17" frameWidth="1177" frameHeight="2116" />
+<SubTexture name="QueenNightcoreTalk talk0000" x="1194" y="0" width="1194" height="2128" frameX="-9" frameY="-17" frameWidth="1177" frameHeight="2116" />
+</TextureAtlas>

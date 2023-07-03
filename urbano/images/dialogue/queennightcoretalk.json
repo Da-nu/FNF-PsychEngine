@@ -1,0 +1,38 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		170,
+		-550
+	],
+	"no_antialiasing": false,
+	"scale": 1,
+	"animations": [
+		{
+			"loop_name": "",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "QueenNightcoreTalk talk",
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "QueenNightcoreTalk shut",
+			"anim": "shut",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "QueenNightcoreTalk"
+}

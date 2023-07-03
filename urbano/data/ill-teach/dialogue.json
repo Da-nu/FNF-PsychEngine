@@ -1,0 +1,180 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "shut",
+			"text": "This place's kinda dead."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "shut",
+			"text": "I was expecting a nightclub to be more livelier."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You! It's you!"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Who, me?"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes, I can feel it in your aura."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're the Chosen One of the prophecy."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Uh... is that a new kind of scam?"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm Queen Nightcore, guardian of the Divine Dancing Revelations."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And you're the Dancing Chosen One."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "The young man that is going to save this place as foretold by my visions!"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I don't get what you're saying, but I think you got the wrong guy."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "See ya."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What do you think of a gig to earn a quick buck?"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Now we're talking."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Tell me more."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're gonna dance with me on that stage and I'll pay you depending on how well it goes."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "That sounds good, actually."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I may not look like it, but I'm a pretty decent performer."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Marvelous! This way I will be able to prove that you are, in fact, the Chosen One!"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Okay, just quit that prophecy BS."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "It's starting to get on my nerves."
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Let's start with this song to test the waters."
+		}
+	]
+}

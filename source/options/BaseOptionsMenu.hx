@@ -56,6 +56,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		#end
 		
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.setGraphicSize(Std.int(bg.width * 0.669791667),Std.int(bg.height * 0.675925926));
 		bg.color = 0xFFea71fd;
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
@@ -259,9 +260,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			}
 		}
 
-		if(boyfriend != null && boyfriend.animation.curAnim.finished) {
-			boyfriend.dance();
-		}
+		//if(boyfriend != null && boyfriend.animation.curAnim.finished) {
+			//boyfriend.dance();
+		//}
 
 		if(nextAccept > 0) {
 			nextAccept -= 1;
@@ -340,7 +341,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		boyfriend = new Character(840, 170, 'bf', true);
 		boyfriend.setGraphicSize(Std.int(boyfriend.width * 0.75));
 		boyfriend.updateHitbox();
-		boyfriend.dance();
+		//boyfriend.dance();
 		insert(1, boyfriend);
 		boyfriend.visible = wasVisible;
 	}

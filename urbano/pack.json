@@ -1,0 +1,7 @@
+{
+	"name": "urbano mod",
+	"description": "real!",
+	"restart":false,
+	"runsGlobally": true,
+	"color": [170, 0, 255]
+}

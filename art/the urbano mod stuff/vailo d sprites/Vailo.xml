@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Vailo.png">
+<SubTexture name="Vailo idle0000" x="784" y="4036" width="1038" height="1934" frameX="0" frameY="-132" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0000" x="9912" y="1395" width="693" height="1350" frameX="-190" frameY="-716" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0001" x="9912" y="0" width="693" height="1395" frameX="-190" frameY="-671" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0002" x="8121" y="3759" width="883" height="1471" frameX="0" frameY="-595" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0003" x="8121" y="5230" width="693" height="1454" frameX="-190" frameY="-612" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0004" x="8362" y="7892" width="1038" height="1558" frameX="0" frameY="-508" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0005" x="0" y="5974" width="926" height="1918" frameX="-112" frameY="-148" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down0006" x="1752" y="2038" width="1038" height="1947" frameX="0" frameY="-119" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0000" x="6496" y="7892" width="900" height="1816" frameX="-37" frameY="-249" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0001" x="9013" y="3735" width="880" height="1855" frameX="-59" frameY="-210" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0002" x="4181" y="5974" width="852" height="1891" frameX="-87" frameY="-174" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0003" x="4951" y="4036" width="822" height="1923" frameX="-122" frameY="-142" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0004" x="3576" y="2038" width="778" height="1942" frameX="-174" frameY="-123" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0005" x="5613" y="1938" width="761" height="1935" frameX="-190" frameY="-130" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing left0006" x="4852" y="0" width="761" height="1938" frameX="-190" frameY="-127" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0000" x="4659" y="7892" width="922" height="1835" frameX="-59" frameY="-230" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0001" x="0" y="7892" width="905" height="1874" frameX="-76" frameY="-191" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0002" x="3299" y="5974" width="882" height="1892" frameX="-111" frameY="-173" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0003" x="1782" y="5974" width="856" height="1909" frameX="-153" frameY="-160" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0004" x="2606" y="4036" width="779" height="1929" frameX="-271" frameY="-136" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0005" x="6393" y="3845" width="762" height="1921" frameX="-287" frameY="-144" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down left0006" x="6393" y="1923" width="762" height="1922" frameX="-287" frameY="-143" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0000" x="7396" y="7892" width="966" height="1816" frameX="-37" frameY="-249" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0001" x="1849" y="7892" width="944" height="1855" frameX="-59" frameY="-210" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0002" x="5033" y="5974" width="900" height="1891" frameX="-87" frameY="-174" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0003" x="6393" y="0" width="864" height="1923" frameX="-122" frameY="-142" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0004" x="0" y="2038" width="876" height="1998" frameX="-156" frameY="-67" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0005" x="3109" y="0" width="872" height="2011" frameX="-159" frameY="-54" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing top left0006" x="679" y="0" width="879" height="2017" frameX="-157" frameY="-48" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0000" x="2793" y="7892" width="900" height="1842" frameX="-120" frameY="-223" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0001" x="9013" y="1877" width="880" height="1858" frameX="-118" frameY="-207" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0002" x="8121" y="1882" width="851" height="1877" frameX="-117" frameY="-188" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0003" x="7257" y="1919" width="822" height="1918" frameX="-112" frameY="-147" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0004" x="5613" y="0" width="780" height="1938" frameX="-103" frameY="-127" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0005" x="0" y="4036" width="784" height="1938" frameX="-99" frameY="-127" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing right0006" x="2790" y="2038" width="786" height="1943" frameX="-97" frameY="-122" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0000" x="5581" y="7892" width="915" height="1835" frameX="-287" frameY="-230" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0001" x="8121" y="0" width="892" height="1882" frameX="-287" frameY="-183" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0002" x="6645" y="5974" width="882" height="1889" frameX="-265" frameY="-176" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0003" x="926" y="5974" width="856" height="1910" frameX="-239" frameY="-159" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0004" x="3385" y="4036" width="780" height="1928" frameX="-201" frameY="-137" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0005" x="1822" y="4036" width="784" height="1930" frameX="-197" frameY="-135" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing down right0006" x="4165" y="4036" width="786" height="1924" frameX="-195" frameY="-141" frameWidth="1203" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0000" x="3693" y="7892" width="966" height="1842" frameX="-54" frameY="-223" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0001" x="905" y="7892" width="944" height="1858" frameX="-54" frameY="-207" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0002" x="9013" y="0" width="899" height="1877" frameX="-69" frameY="-188" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0003" x="7257" y="0" width="864" height="1919" frameX="-70" frameY="-146" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0004" x="876" y="2038" width="876" height="1998" frameX="-23" frameY="-67" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0005" x="3981" y="0" width="871" height="2011" frameX="-20" frameY="-54" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up right0006" x="1558" y="0" width="880" height="2017" frameX="-11" frameY="-48" frameWidth="1008" frameHeight="2048" />
+<SubTexture name="Vailo sing up0000" x="9013" y="5590" width="763" height="1849" frameX="-86" frameY="-218" frameWidth="870" frameHeight="2048" />
+<SubTexture name="Vailo sing up0001" x="0" y="0" width="679" height="2038" frameX="-112" frameY="-29" frameWidth="870" frameHeight="2048" />
+<SubTexture name="Vailo sing up0002" x="2438" y="0" width="671" height="2013" frameX="-117" frameY="-54" frameWidth="870" frameHeight="2048" />
+<SubTexture name="Vailo sing up0003" x="7257" y="3837" width="647" height="1912" frameX="-139" frameY="-155" frameWidth="870" frameHeight="2048" />
+<SubTexture name="Vailo sing up0004" x="2638" y="5974" width="661" height="1896" frameX="-124" frameY="-171" frameWidth="870" frameHeight="2048" />
+<SubTexture name="Vailo sing up0005" x="4852" y="1938" width="690" height="1902" frameX="-106" frameY="-165" frameWidth="870" frameHeight="2048" />
+<SubTexture name="Vailo sing up0006" x="5933" y="5974" width="712" height="1891" frameX="-93" frameY="-176" frameWidth="870" frameHeight="2048" />
+</TextureAtlas>

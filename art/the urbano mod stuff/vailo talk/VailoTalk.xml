@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="VailoTalk.png">
+<SubTexture name="VailoTalk shut0000" x="0" y="0" width="808" height="2081" frameX="-4" frameY="-7" frameWidth="772" frameHeight="2048" />
+<SubTexture name="VailoTalk talk0000" x="808" y="0" width="808" height="2081" frameX="-4" frameY="-7" frameWidth="772" frameHeight="2048" />
+</TextureAtlas>

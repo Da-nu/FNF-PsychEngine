@@ -403,7 +403,19 @@ class Paths
 	}
 
 	#if MODS_ALLOWED
+	// tried to make 2 different mod folders (wanted to split up urbano modded content cause idk how to transfer all of that to assets correctly) but that straight up failed
+
+	/*inline static public function urbanoFolder(key:String = '') {
+		return 'urbano/' + key;
+	}*/
+
 	inline static public function mods(key:String = '') {
+		/*var fileToCheckExtra:String = 'mods/' + key;
+		if(FileSystem.exists(fileToCheckExtra)) {
+			return fileToCheckExtra;
+		}
+
+		return 'urbano/' + key;*/
 		return 'mods/' + key;
 	}
 
@@ -463,6 +475,18 @@ class Paths
 				return fileToCheck;
 
 		}
+
+		/*var fileToCheckExtra:String = mods(key);
+		if(FileSystem.exists(fileToCheckExtra)) {
+			return fileToCheckExtra;
+		}
+
+		/*var fileToCheckUrbano:String = urbanoFolder(key);
+		if(FileSystem.exists(fileToCheckUrbano)) {
+			return fileToCheckUrbano;
+		}
+
+		return 'urbano/' + key;*/
 		return 'mods/' + key;
 	}
 

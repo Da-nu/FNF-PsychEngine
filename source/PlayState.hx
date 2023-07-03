@@ -874,6 +874,7 @@ class PlayState extends MusicBeatState
 		var foldersToCheck:Array<String> = [Paths.getPreloadPath('scripts/')];
 
 		#if MODS_ALLOWED
+		//a
 		foldersToCheck.insert(0, Paths.mods('scripts/'));
 		if(Paths.currentModDirectory != null && Paths.currentModDirectory.length > 0)
 			foldersToCheck.insert(0, Paths.mods(Paths.currentModDirectory + '/scripts/'));
@@ -1300,10 +1301,11 @@ class PlayState extends MusicBeatState
 		RecalculateRating();
 
 		//PRECACHING MISS SOUNDS BECAUSE I THINK THEY CAN LAG PEOPLE AND FUCK THEM UP IDK HOW HAXE WORKS
-		if(ClientPrefs.hitsoundVolume > 0) precacheList.set('hitsound', 'sound');
-		precacheList.set('missnote1', 'sound');
-		precacheList.set('missnote2', 'sound');
-		precacheList.set('missnote3', 'sound');
+		if(ClientPrefs.hitsoundVolume > 0) precacheList.set('dddPerfect', 'sound');
+		precacheList.set('losecombo', 'sound');
+		//precacheList.set('missnote1', 'sound');
+		//precacheList.set('missnote2', 'sound');
+		//precacheList.set('missnote3', 'sound');
 
 		if (PauseSubState.songName != null) {
 			precacheList.set(PauseSubState.songName, 'music');
@@ -2091,11 +2093,11 @@ class PlayState extends MusicBeatState
 				}
 				if (tmr.loopsLeft % boyfriend.danceEveryNumBeats == 0 && boyfriend.animation.curAnim != null && !boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.stunned)
 				{
-					boyfriend.dance();
+					//boyfriend.dance();
 				}
 				if (tmr.loopsLeft % dad.danceEveryNumBeats == 0 && dad.animation.curAnim != null && !dad.animation.curAnim.name.startsWith('sing') && !dad.stunned)
 				{
-					dad.dance();
+					//dad.dance();
 				}
 
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
@@ -3115,7 +3117,7 @@ class PlayState extends MusicBeatState
 				if(!cpuControlled) {
 					keyShit();
 				} else if(boyfriend.animation.curAnim != null && boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 / FlxG.sound.music.pitch) * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss')) {
-					boyfriend.dance();
+					//boyfriend.dance();
 					//boyfriend.animation.curAnim.finish();
 				}
 
@@ -4424,7 +4426,7 @@ class PlayState extends MusicBeatState
 			}
 			else if (boyfriend.animation.curAnim != null && boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 / FlxG.sound.music.pitch) * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss'))
 			{
-				boyfriend.dance();
+				//boyfriend.dance();
 				//boyfriend.animation.curAnim.finish();
 			}
 		}
@@ -4521,7 +4523,7 @@ class PlayState extends MusicBeatState
 			totalPlayed++;
 			RecalculateRating(true);
 
-			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
+			FlxG.sound.play(Paths.sound("losecombo"), FlxG.random.float(0.1, 0.2));
 			// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
 			// FlxG.log.add('played imss note');
 
@@ -4568,7 +4570,7 @@ class PlayState extends MusicBeatState
 
 			if(char != null)
 			{
-				char.playAnim(animToPlay, true);
+				//char.playAnim(animToPlay, true);
 				char.holdTimer = 0;
 			}
 		}
@@ -4601,7 +4603,7 @@ class PlayState extends MusicBeatState
 
 			if (ClientPrefs.hitsoundVolume > 0 && !note.hitsoundDisabled)
 			{
-				FlxG.sound.play(Paths.sound('hitsound'), ClientPrefs.hitsoundVolume);
+				//FlxG.sound.play(Paths.sound('dddPerfect'), ClientPrefs.hitsoundVolume);
 			}
 
 			if(note.hitCausesMiss) {
@@ -4652,7 +4654,7 @@ class PlayState extends MusicBeatState
 				}
 				else
 				{
-					boyfriend.playAnim(animToPlay + note.animSuffix, true);
+					//boyfriend.playAnim(animToPlay + note.animSuffix, false);
 					boyfriend.holdTimer = 0;
 				}
 
@@ -4989,11 +4991,11 @@ class PlayState extends MusicBeatState
 		}
 		if (curBeat % boyfriend.danceEveryNumBeats == 0 && boyfriend.animation.curAnim != null && !boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.stunned)
 		{
-			boyfriend.dance();
+			//boyfriend.dance();
 		}
 		if (curBeat % dad.danceEveryNumBeats == 0 && dad.animation.curAnim != null && !dad.animation.curAnim.name.startsWith('sing') && !dad.stunned)
 		{
-			dad.dance();
+			//dad.dance();
 		}
 
 		switch (curStage)

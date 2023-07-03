@@ -218,7 +218,7 @@ class Character extends FlxSprite
 
 		if(animOffsets.exists('singLEFTmiss') || animOffsets.exists('singDOWNmiss') || animOffsets.exists('singUPmiss') || animOffsets.exists('singRIGHTmiss')) hasMissAnimations = true;
 		recalculateDanceIdle();
-		dance();
+		//dance();
 
 		if (isPlayer)
 		{
@@ -266,14 +266,14 @@ class Character extends FlxSprite
 					if(specialAnim && animation.curAnim.name == 'hey' || animation.curAnim.name == 'cheer')
 					{
 						specialAnim = false;
-						dance();
+						//dance();
 					}
 					heyTimer = 0;
 				}
 			} else if(specialAnim && animation.curAnim.finished)
 			{
 				specialAnim = false;
-				dance();
+				//dance();
 			}
 			
 			switch(curCharacter)
@@ -300,7 +300,7 @@ class Character extends FlxSprite
 
 				if (holdTimer >= Conductor.stepCrochet * (0.0011 / (FlxG.sound.music != null ? FlxG.sound.music.pitch : 1)) * singDuration)
 				{
-					dance();
+					//dance();
 					holdTimer = 0;
 				}
 			}
@@ -332,7 +332,7 @@ class Character extends FlxSprite
 					playAnim('danceLeft' + idleSuffix);
 			}
 			else if(animation.getByName('idle' + idleSuffix) != null) {
-					playAnim('idle' + idleSuffix);
+					//playAnim('idle' + idleSuffix);
 			}
 		}
 	}

@@ -596,8 +596,9 @@ class WeekEditorFreeplayState extends MusicBeatState
 
 	override function create() {
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.setGraphicSize(Std.int(bg.width * 0.669791667),Std.int(bg.height * 0.675925926));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
-
+		bg.screenCenter();
 		bg.color = FlxColor.WHITE;
 		add(bg);
 

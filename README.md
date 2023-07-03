@@ -1,3 +1,9 @@
+# urbano mod readme part
+yea its the source code crazy right
+feel free to submit fixes and issues here if i can figure out how to setup this repo correctly
+no this wont compile for linux, just run it in wine
+ill eventually add new content (night 05 pretty much) to the mod just not right now
+
 # Friday Night Funkin' - Psych Engine
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 

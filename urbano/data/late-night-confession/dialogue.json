@@ -1,0 +1,20 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "QueenNightcoreTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Encore!"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "VailoTalk",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Sure?"
+		}
+	]
+}
